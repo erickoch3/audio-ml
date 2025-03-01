@@ -1,0 +1,11 @@
+# Example Python dependencies for the project
+torch>=1.10.0
+torchaudio
+numpy
+pandas
+matplotlib
+librosa
+mlflow
+wandb
+tqdm
+pyyaml

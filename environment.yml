@@ -1,0 +1,17 @@
+name: voice-cloning-env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - torch>=1.10.0
+    - torchaudio
+    - numpy
+    - pandas
+    - matplotlib
+    - librosa
+    - mlflow
+    - wandb
+    - tqdm
+    - pyyaml

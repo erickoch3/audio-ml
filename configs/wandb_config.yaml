@@ -1,0 +1,10 @@
+program: "src/speaker_encoder/encoder_train.py"
+method: bayes
+metric:
+  name: val_loss
+  goal: minimize
+parameters:
+  learning_rate:
+    values: [0.0001, 0.00005, 0.00001]
+  batch_size:
+    values: [16, 32]

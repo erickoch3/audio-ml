@@ -1,0 +1,11 @@
+name: voice-cloning-project
+
+conda_env: environment.yml
+
+entry_points:
+  encoder_train:
+    command: "python src/speaker_encoder/encoder_train.py"
+  synthesizer_train:
+    command: "python src/synthesizer/synthesizer_train.py"
+  vocoder_train:
+    command: "python src/vocoder/vocoder_train.py"
